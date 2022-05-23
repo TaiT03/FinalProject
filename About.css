@@ -99,35 +99,6 @@ img{
 
 }
 
-/*
-.flextwo{
-    position: relative;
-    top: 410px;
-    border: 5px solid rgb(177,148,131);
-    background-color:rgb(177,148,131);
-    height: 400px;
-}
-
-.texttwo{
-    margin: 80px;
-    padding: 50px;
-    color: white;
-}
-
-h2{
-    font-size:1.5rem;
-    margin:10px;
-    font-weight: 400;
-    text-align: left;
-}
-
-p{
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: center;
-}
-*/
-
 .border{
     border: solid 5px rgb(177,148,131);
     background-color: rgb(177,148,131);
