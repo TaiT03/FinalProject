@@ -4,9 +4,8 @@
 }
 
 body{
-    background-image: url(/Images/francesco-gallarotti-ruQHpukrN7c-unsplash.jpg);
-    background-size: cover;
     color: white;
+    font-family: sans-serif;
 }
 
 nav{
@@ -17,7 +16,6 @@ nav{
     align-items: center;
     font-size: larger;
 }
-
 
 li, a {
     font-family: sans-serif;
@@ -32,15 +30,31 @@ li, a {
 .dropdown li:hover{
     text-shadow: 0px 0px 15px green;
 }
-img{
-    width: 300px;
+
+.img{
+    margin: 25px 150px 150px;
+    width: 75%;
+    height: 365px;
+    z-index: 0;
 }
 
-.home{
-    font-size: x-large;
+.first{
+    position: absolute;
+    top: 175px;
+    left: 225px;
+    width: 800px;
     text-align: center;
-    text-shadow: 1px 1px black;
+    text-shadow: 0px 0px 5px green;
+
 }
+
+
+.home{
+    background-color: skyblue;
+ 
+
+}
+
 
 #home{
     transform: rotate(270deg);
@@ -48,18 +62,53 @@ img{
 
 }
 
-.align{
-    display: flex;
+
+.fruit{
+
+    text-align: center;
+    margin: -100px 150px 150px 150px;
+    padding: 0px;
+    font-size: larger;
 
 }
 
-.column{
-    flex: 50%;
-    margin: 5px;
+.flex{
+    display: flex;
+    gap: 460px;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+}
 
+
+img{
+    width: 300px;
+}
+
+
+.border{
+    border: solid 5px rgb(177,148,131);
+    background-color: rgb(177,148,131);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 270px;
+    left: 30px;
+
+}
+
+.garden{
+    margin: 40px;
+    padding: 10px;
 }
 
 #garden{
     width: 200px;
-    height: 250px;
+    height: 300px;
+}
+
+.info{
+    width: 500px;
+    font-size: larger;
 }
