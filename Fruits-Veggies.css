@@ -14,7 +14,7 @@ nav{
 }
 
 
-li, a {
+ul li, a {
     font-family: sans-serif;
     color: white;
     text-decoration: none;
@@ -27,3 +27,32 @@ li, a {
 .dropdown li:hover{
     text-shadow: 0px 0px 15px green;
 }
+
+body{
+    color: white;
+}
+
+.whole{
+    text-align: center;
+    background-color: skyblue;
+}
+
+.first{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+
+}
+
+.apple{
+    width: 425px;
+}
+
+.pear{
+    width: 425px;
+}
+
+
+
+

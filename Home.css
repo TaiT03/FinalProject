@@ -94,8 +94,7 @@ img{
     align-items: center;
     justify-content: center;
     gap: 270px;
-    left: 30px;
-
+    font-size: large;
 }
 
 .garden{
