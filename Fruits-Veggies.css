@@ -46,11 +46,39 @@ body{
 }
 
 .apple{
+    background-image: url(Images/matheus-cenali-wXuzS9xR49M-unsplash.jpg);
+    background-size: cover;
     width: 425px;
+    text-shadow: 1px 0px 0px black;
+
 }
 
 .pear{
+    background-image: url(Images/khloe-arledge-gHIABZ6roh0-unsplash.jpg);
     width: 425px;
+    background-size: cover;
+    text-shadow: 1px 0px 0px black;
+}
+
+.second{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.strawberry{
+    background-image: url(Images/sviatoslav-huzii-I497Uc8xWXQ-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 0px 0px black;
+}
+
+.blueberry{
+    background-image: url(Images/sviatoslav-huzii-07-NqRH4eqI-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 0px 0px black;
 }
 
 
