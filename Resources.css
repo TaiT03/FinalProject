@@ -3,8 +3,19 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
 
-nav{
+.info {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: .25fr repeat(4, 1fr) .5fr;
+}
+
+nav {
+    grid-area: 1 / 1 / 2 / 7;
     background-color: skyblue;
     display: flex;
     color: white;
@@ -13,10 +24,7 @@ nav{
     font-size: larger;
 }
 
-
 li, a {
-    font-family: sans-serif;
-    color: white;
     text-decoration: none;
     list-style: none;
     display: inline;
@@ -24,6 +32,54 @@ li, a {
     
 }
 
-.dropdown li:hover{
+.dropdown li:hover {
     text-shadow: 0px 0px 15px green;
+}
+
+.blue {
+    grid-area: 2 / 1 / 4 / 7;
+    background-color: skyblue;
+    display: flex;
+    border: 5px solid skyblue;
+}
+
+.div3 {
+    grid-area: 2 / 1 / 4 / 4;
+    background-color: skyblue;
+    display: flex;
+    border: 5px solid skyblue; 
+}
+
+.div4 {
+    grid-area: 2 / 4 / 4 / 7;
+    background-color: skyblue;
+    display: flex;
+    border: 5px solid skyblue;
+}
+
+.green {
+    grid-area: 4 / 1 / 6 / 7;
+    display: flex;
+    background-color: #25995C;
+    border: 5px solid #25995C; 
+}
+
+.div6 {
+    grid-area: 4 / 1 / 6 / 4;
+    background-color: #25995C;
+    border: 5px solid #25995C; 
+}
+
+.div7 {
+    grid-area: 4 / 4 / 6 / 7;
+    background-color: #25995C;
+    border: 5px solid #25995C; 
+}
+
+footer {
+    grid-area: 6 / 1 / 7 / 7;
+    background-color: rgb(177,148,131);
+    border: 5px solid rgb(177,148,131); 
+    display: flex;
+    justify-content: center;
 }

@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     color: white;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav{
@@ -18,7 +18,7 @@ nav{
 }
 
 li, a {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-decoration: none;
     list-style: none;
@@ -59,9 +59,7 @@ li, a {
 #home{
     transform: rotate(270deg);
     width: 200px;
-
 }
-
 
 .fruit{
 
