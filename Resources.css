@@ -47,7 +47,8 @@ li, a {
     grid-area: 2 / 1 / 4 / 4;
     background-color: skyblue;
     display: flex;
-    border: 5px solid skyblue; 
+    border: 5px solid skyblue;
+    
 }
 
 .div4 {
@@ -82,4 +83,34 @@ footer {
     border: 5px solid rgb(177,148,131); 
     display: flex;
     justify-content: center;
+}
+ 
+h3{
+    font-size: 24px;
+    color: #000;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.p{
+    margin: 0 0 28px;
+    margin-right: 20px;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h2{
+    font-size: 24px;
+    color: #000;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    text-transform: uppercase;
 }
