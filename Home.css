@@ -109,3 +109,11 @@ img{
     width: 500px;
     font-size: larger;
 }
+ 
+footer {
+    grid-area: 6 / 1 / 7 / 7;
+    background-color: skyblue;
+    border: 5px solid skyblue; 
+    display: flex;
+    justify-content: center;
+}
