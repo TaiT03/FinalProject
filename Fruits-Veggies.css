@@ -256,7 +256,7 @@ text-shadow: 1px 1px limegreen;
     text-shadow: 1px 1px red ;
 }
 
-.avacado{
+.avocado{
     background-image: url(Images/ben-wicks-gwxcddjTbw4-unsplash.jpg);
     width: 425px;
     background-size: cover;
@@ -283,7 +283,7 @@ text-shadow: 1px 1px limegreen;
     background-image: url(Images/rodrigo-dos-reis-DkTuGvgPotA-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px yellow ;
+    text-shadow: 1px 1px darkgoldenrod ;
 
 }
 
@@ -292,7 +292,7 @@ text-shadow: 1px 1px limegreen;
     background-image: url(Images/dan-bucko-HkshRttZKCM-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px lightgreen ;
+    text-shadow: 1px 1px darkgreen ;
 }
 
 .leafy{
