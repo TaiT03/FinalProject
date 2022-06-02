@@ -16,8 +16,8 @@ body {
     grid-row-gap: 0px;
 
 }
-
-/*nav{
+/*
+nav{
     background-color: skyblue;
     display: flex;
     color: white;
@@ -46,6 +46,15 @@ li, a {
 .dropdown li:hover{
     text-shadow: 0px 0px 15px green;
 }
+
+.navlogo{
+    width: 25px;
+    height: 25px;
+    left: 265px;
+    position: absolute;
+
+}
+
 
 .blue {
     grid-area: 2 / 1 / 4 / 7;

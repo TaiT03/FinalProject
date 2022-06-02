@@ -28,6 +28,15 @@ ul li, a {
     text-shadow: 0px 0px 15px green;
 }
 
+.navlogo{
+    width: 25px;
+    height: 25px;
+    left: 265px;
+    position: absolute;
+
+}
+
+
 body {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -50,7 +59,7 @@ body {
     background-image: url(Images/matheus-cenali-wXuzS9xR49M-unsplash.jpg);
     background-size: cover;
     width: 425px;
-    text-shadow: 1px 0px 0px black;
+    text-shadow: 1px 1px rgb(138, 14, 14);
 
 }
 
@@ -58,10 +67,10 @@ body {
     background-image: url(Images/khloe-arledge-gHIABZ6roh0-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 0px 0px black;
+    text-shadow: 1px 1px black;
 }
 
-.second {
+.berries1 {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -72,16 +81,376 @@ body {
     background-image: url(Images/sviatoslav-huzii-I497Uc8xWXQ-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 0px 0px black;
+    text-shadow: 1px 1px red;
 }
 
 .blueberry {
     background-image: url(Images/sviatoslav-huzii-07-NqRH4eqI-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 0px 0px black;
+    text-shadow: 1px 1px darkblue;
 }
 
+.raspberry{
+    background-image: url(Images/jeremy-bezanger-T6yw2uxui88-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px deeppink ;
+}
+
+.berries2{
+    margin: 25px 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+
+.blackberry{
+    background-image: url(Images/kateryna-moskalova-tFj5BMAwK-Q-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px rebeccapurple;
+
+}
+
+.cranberry{
+    background-image: url(Images/heather-barnes-gCmkY_c5lTg-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px darkred;
+}
+
+.boysenberry{
+    background-image: url(Images/Boysenberry.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px mediumpurple;
+}
+
+.citrus{
+    margin: 15px 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.lemon{
+    background-image: url(Images/sama-hosseini-tm7Mf8apKCQ-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px goldenrod;
+
+}
+
+.limes{
+background-image: url(Images/vino-li-UFrsHcCi21A-unsplash.jpg);
+width: 425px;
+background-size: cover;
+text-shadow: 1px 1px limegreen;
+}
+
+.oranges{
+    background-image: url(Images/jen-gunter-A4BBdJQu2co-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px orangered;
+
+}
+
+.melons{
+    margin: 15px 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.watermelon{
+    background-image: url(Images/floh-maier-aFUHu9WNO3Q-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px magenta;
+}
+
+.cantaloupe{
+    background-image: url(Images/Cantaloupe.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow:  1px 1px ;
+}
+
+.stonefruit1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.peaches{ 
+    background-image: url(Images/lucy-claire-kVZOK4CCeLY-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px peachpuff ;
+
+}
+
+.nectarines{
+    background-image: url(Images/dmitriy-koryas--P2YUqgo1Qs-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px lightpink  ;
+
+}
+
+.plums{
+    background-image: url(Images/jasper-benning-xz971SzqmGU-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px plum ;
+
+}
+
+.stonefruits2{
+    margin: 10px 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.cherries{
+    background-image: url(Images/vino-li-OseN2JZdcY4-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px crimson ;
+}
+
+.mango{
+    background-image: url(Images/jacqueline-brandwayn-McxsrN3WW48-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px lightsalmon ;
+}
+
+.dates{
+    background-image: url(Images/engin-akyurt-nv0VMT-dM3c-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px brown  ;
+}
+
+.both{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.tomato{
+    background-image: url(Images/engin-akyurt-eb26eV-ys_k-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px red ;
+}
+
+.avacado{
+    background-image: url(Images/ben-wicks-gwxcddjTbw4-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px mediumseagreen ;
+
+}
+
+.tropical{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.pineapple{
+    background-image: url(Images/vino-li-OKT6Ce9fwqI-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px goldenrod ;
+
+}
+
+.banana{
+    background-image: url(Images/rodrigo-dos-reis-DkTuGvgPotA-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px yellow ;
+
+}
+
+.kiwi{
+
+    background-image: url(Images/dan-bucko-HkshRttZKCM-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px lightgreen ;
+}
+
+.leafy{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.lettuce{
+    background-image: url(Images/tite-zobaran-o1cMRfaYD7I-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px limegreen ;
+}
+
+.spinach{
+    background-image: url(Images/nathan-nugent-6AAptb2kBak-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px green ;
+}
+
+.silverbeet{
+    background-image: url(Images/Silverbeeet.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px forestgreen ;
+}
+
+.cruciferous{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.cabbage{
+    background-image: url(Images/natasha-skov-ujh4hU9S-KA-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px lightgreen ;
+}
+
+.cauliflower{
+    background-image: url(Images/karolina-kolodziejczak-y4j_bKe0b6Q-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px black ;
+}
+
+.cruciferous2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.broccoli{
+    background-image: url(Images/adi-rahman-wpJzb1lX5Ac-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px mediumspringgreen ;
+}
+
+.brussel{
+    background-image: url(Images/jez-timms-ia9z68YnJdY-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px darkgreen ;
+}
+
+.marrow{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.pumpkin{
+    background-image: url(Images/kerstin-wrba-zeInZepl_Hw-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px peru ;
+}
+
+.cucumber{
+    background-image: url(Images/harshal-s-hirve-2GiRcLP_jkI-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px green ;
+}
+
+.zucchini{
+    background-image: url(Images/herbert-goetsch-RP3UpniGTJo-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px yellowgreen ;
+}
+
+.edible{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.celery{
+    background-image: url(Images/daniela-paola-alchapar-u0QBoxz-LF4-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px green ;
+}
+
+.asparagus{
+    background-image: url(Images/asparagus.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px lightgreen ;
+}
+
+.allium{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.onion{
+    background-image: url(Images/abhishek-hajare-D9h2-RxM1rE-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px black ;
+}
+
+.garlic{
+    background-image: url(Images/gaelle-marcel-qOwyDpkhaCI-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px black ;
+}
+
+.shallot{
+    background-image: url(Images/shallot.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px black ;
+}
+
+
+
+footer {
+    grid-area: 6 / 1 / 7 / 7;
+    background-color: skyblue;
+    border: 5px solid skyblue; 
+    display: flex;
+    justify-content: center;
+}
 
 
 
