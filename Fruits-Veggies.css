@@ -345,6 +345,7 @@ text-shadow: 1px 1px limegreen;
 }
 
 .cruciferous2{
+    margin: 5px 0px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -404,14 +405,14 @@ text-shadow: 1px 1px limegreen;
     background-image: url(Images/daniela-paola-alchapar-u0QBoxz-LF4-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px green ;
+    text-shadow: 1px 1px darkgreen ;
 }
 
 .asparagus{
     background-image: url(Images/asparagus.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px lightgreen ;
+    text-shadow: 1px 1px black ;
 }
 
 .allium{
