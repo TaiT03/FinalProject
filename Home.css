@@ -93,8 +93,8 @@ img{
 
 
 .border{
-    border: solid 5px rgb(177,148,131);
-    background-color: rgb(177,148,131);
+    border: solid 5px #25995C;
+    background-color: #25995C;
     display: flex;
     text-align: center;
     align-items: center;
@@ -120,8 +120,8 @@ img{
  
 footer {
     grid-area: 6 / 1 / 7 / 7;
-    background-color: skyblue;
-    border: 5px solid skyblue; 
+    background-color: rgb(177,148,131);
+    border: 5px solid rgb(177,148,131); 
     display: flex;
     justify-content: center;
 }
