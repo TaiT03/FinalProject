@@ -14,6 +14,15 @@ body {
     grid-template-rows: .25fr repeat(4, 1fr) .5fr;
 }
 
+
+.navlogo{
+    width: 25px;
+    height: 25px;
+    left: 265px;
+    position: absolute;
+
+}
+
 nav {
     grid-area: 1 / 1 / 2 / 7;
     background-color: skyblue;
@@ -94,23 +103,32 @@ h3{
     margin: 0 0 20px;
     text-transform: uppercase;
 }
+h5{
+    font-size: 20px;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
-.p{
-    margin: 0 0 28px;
+/*.p{
+    margin: 0, 0, 28px;
     margin-right: 20px;
     padding: 0;
-    display: block;
+    display: flex;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
+}*/
 h2{
-    font-size: 24px;
+    font-size:24px;
     color: #000;
     font-family: Lato, sans-serif;
     font-weight: 700;
     line-height: 1.2;
     margin: 0 0 20px;
     text-transform: uppercase;
+}
+.l1{
+    color: #25995c;
 }
