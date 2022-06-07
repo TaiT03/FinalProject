@@ -120,28 +120,28 @@ li, a {
 
 .green {
     grid-area: 4 / 1 / 5 / 7;
-    background-color: #25995C;
-    border: 5px solid #25995C; 
+    background-color: green;
+    border: 5px solid green; 
     display: flex;
   justify-content: flex-start;
 }
 
 .future {
     grid-area: 4 / 1 / 5 / 3;
-    background-color: #25995C;
-    border: 5px solid #25995C; 
+    background-color: green;
+    border: 5px solid green); 
 }
 
 .goals {
     grid-area: 4 / 3 / 5 / 5;
-    background-color: #25995C;
-    border: 5px solid #25995C; 
+    background-color: green;
+    border: 5px solid rgb(red, green, blue); 
 }
 
 .contact {
     grid-area: 4 / 5 / 5 / 7;
-    background-color: #25995C;
-    border: 5px solid #25995C; 
+    background-color: green;
+    border: 5px solid green; 
 }
 
 /*.texttwo{
