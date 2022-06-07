@@ -28,7 +28,7 @@ ul li, a {
     text-shadow: 0px 0px 15px green;
 }
 
-.navlogo{
+.navlogo {
     width: 25px;
     height: 25px;
     left: 265px;
@@ -42,7 +42,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.whole{
+p {
+    padding: 10px;
+}
+
+.whole {
     text-align: center;
     background-color: skyblue;
 }
@@ -91,129 +95,14 @@ body {
     text-shadow: 1px 1px darkblue;
 }
 
-.raspberry{
+.raspberry {
     background-image: url(Images/jeremy-bezanger-T6yw2uxui88-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px deeppink ;
+    text-shadow: 1px 1px deeppink;
 }
 
-.berries2{
-    margin: 25px 0px 0px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 150px;
-}
-
-
-.blackberry{
-    background-image: url(Images/kateryna-moskalova-tFj5BMAwK-Q-unsplash.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow: 1px 1px rebeccapurple;
-
-}
-
-.cranberry{
-    background-image: url(Images/heather-barnes-gCmkY_c5lTg-unsplash.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow: 1px 1px darkred;
-}
-
-.boysenberry{
-    background-image: url(Images/Boysenberry.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow: 1px 1px mediumpurple;
-}
-
-.citrus{
-    margin: 15px 0px 0px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 150px;
-}
-
-.lemon{
-    background-image: url(Images/sama-hosseini-tm7Mf8apKCQ-unsplash.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow: 1px 1px goldenrod;
-
-}
-
-.limes{
-background-image: url(Images/vino-li-UFrsHcCi21A-unsplash.jpg);
-width: 425px;
-background-size: cover;
-text-shadow: 1px 1px limegreen;
-}
-
-.oranges{
-    background-image: url(Images/jen-gunter-A4BBdJQu2co-unsplash.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow: 1px 1px orangered;
-
-}
-
-.melons{
-    margin: 15px 0px 0px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 150px;
-}
-
-.watermelon{
-    background-image: url(Images/floh-maier-aFUHu9WNO3Q-unsplash.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow: 1px 1px magenta;
-}
-
-.cantaloupe{
-    background-image: url(Images/Cantaloupe.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow:  1px 1px ;
-}
-
-.stonefruit1{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 150px;
-}
-
-.peaches{ 
-    background-image: url(Images/lucy-claire-kVZOK4CCeLY-unsplash.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow: 1px 1px peachpuff ;
-
-}
-
-.nectarines{
-    background-image: url(Images/dmitriy-koryas--P2YUqgo1Qs-unsplash.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow: 1px 1px lightpink  ;
-
-}
-
-.plums{
-    background-image: url(Images/jasper-benning-xz971SzqmGU-unsplash.jpg);
-    width: 425px;
-    background-size: cover;
-    text-shadow: 1px 1px plum ;
-
-}
-
-.stonefruits2{
+.berries2 {
     margin: 10px 0px 0px;
     display: flex;
     text-align: center;
@@ -221,57 +110,169 @@ text-shadow: 1px 1px limegreen;
     gap: 150px;
 }
 
-.cherries{
+
+.blackberry {
+    background-image: url(Images/kateryna-moskalova-tFj5BMAwK-Q-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px rebeccapurple;
+
+}
+
+.cranberry {
+    background-image: url(Images/heather-barnes-gCmkY_c5lTg-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px darkred;
+}
+
+.boysenberry {
+    background-image: url(Images/Boysenberry.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px mediumpurple;
+}
+
+.citrus {
+    margin: 10px 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.lemon {
+    background-image: url(Images/sama-hosseini-tm7Mf8apKCQ-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px goldenrod;
+}
+
+.limes {
+    background-image: url(Images/vino-li-UFrsHcCi21A-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px limegreen;
+}
+
+.oranges {
+    background-image: url(Images/jen-gunter-A4BBdJQu2co-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px orangered;
+}
+
+.melons {
+    margin: 10px 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.watermelon {
+    background-image: url(Images/floh-maier-aFUHu9WNO3Q-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px magenta;
+}
+
+.cantaloupe {
+    background-image: url(Images/Cantaloupe.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow:  1px 1px;
+}
+
+.stonefruit1 {
+    margin: 10px 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.peaches { 
+    background-image: url(Images/lucy-claire-kVZOK4CCeLY-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px peachpuff;
+}
+
+.nectarines {
+    background-image: url(Images/dmitriy-koryas--P2YUqgo1Qs-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px lightpink;
+}
+
+.plums {
+    background-image: url(Images/jasper-benning-xz971SzqmGU-unsplash.jpg);
+    width: 425px;
+    background-size: cover;
+    text-shadow: 1px 1px plum;
+}
+
+.stonefruits2 {
+    margin: 10px 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.cherries {
     background-image: url(Images/vino-li-OseN2JZdcY4-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px crimson ;
+    text-shadow: 1px 1px crimson;
 }
 
-.mango{
+.mango {
     background-image: url(Images/jacqueline-brandwayn-McxsrN3WW48-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px lightsalmon ;
+    text-shadow: 1px 1px lightsalmon;
 }
 
-.dates{
+.dates {
     background-image: url(Images/engin-akyurt-nv0VMT-dM3c-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px brown  ;
+    text-shadow: 1px 1px brown;
 }
 
-.both{
+.both {
+    margin: 10px 0px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 150px;
 }
 
-.tomato{
+.tomato {
     background-image: url(Images/engin-akyurt-eb26eV-ys_k-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px red ;
+    text-shadow: 1px 1px red;
 }
 
-.avocado{
+.avocado {
     background-image: url(Images/ben-wicks-gwxcddjTbw4-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px mediumseagreen ;
-
+    text-shadow: 1px 1px mediumseagreen;
 }
 
-.tropical{
+.tropical {
+    margin: 10px 0px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 150px;
 }
 
-.pineapple{
+.pineapple {
     background-image: url(Images/vino-li-OKT6Ce9fwqI-unsplash.jpg);
     width: 425px;
     background-size: cover;
@@ -279,7 +280,7 @@ text-shadow: 1px 1px limegreen;
 
 }
 
-.banana{
+.banana {
     background-image: url(Images/rodrigo-dos-reis-DkTuGvgPotA-unsplash.jpg);
     width: 425px;
     background-size: cover;
@@ -287,7 +288,7 @@ text-shadow: 1px 1px limegreen;
 
 }
 
-.kiwi{
+.kiwi {
 
     background-image: url(Images/dan-bucko-HkshRttZKCM-unsplash.jpg);
     width: 425px;
@@ -295,160 +296,164 @@ text-shadow: 1px 1px limegreen;
     text-shadow: 1px 1px darkgreen ;
 }
 
-.border{
+.border {
     border: solid 5px #25995C;
     background-color: #25995C;
+    text-align: center;
 }
 
-.leafy{
+.leafy {
+    margin: 10px 0px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 150px;
 }
 
-.lettuce{
+.lettuce {
     background-image: url(Images/tite-zobaran-o1cMRfaYD7I-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px limegreen ;
+    text-shadow: 1px 1px limegreen;
 }
 
-.spinach{
+.spinach {
     background-image: url(Images/nathan-nugent-6AAptb2kBak-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px green ;
+    text-shadow: 1px 1px green;
 }
 
-.silverbeet{
+.silverbeet {
     background-image: url(Images/Silverbeeet.jpg);
     width: 425px;
     background-size: cover;
     text-shadow: 1px 1px forestgreen ;
 }
 
-.cruciferous{
+.cruciferous {
+    margin: 10px 0px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 150px;
 }
 
-.cabbage{
+.cabbage {
     background-image: url(Images/natasha-skov-ujh4hU9S-KA-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px lightgreen ;
+    text-shadow: 1px 1px lightgreen;
 }
 
-.cauliflower{
+.cauliflower {
     background-image: url(Images/karolina-kolodziejczak-y4j_bKe0b6Q-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px black ;
+    text-shadow: 1px 1px black;
 }
 
-.cruciferous2{
-    margin: 5px 0px 0px;
+.cruciferous2 {
+    margin: 10px 0px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 150px;
 }
 
-.broccoli{
+.broccoli {
     background-image: url(Images/adi-rahman-wpJzb1lX5Ac-unsplash.jpg);
     width: 425px;
     background-size: cover;
     text-shadow: 1px 1px mediumspringgreen ;
 }
 
-.brussel{
+.brussel {
     background-image: url(Images/jez-timms-ia9z68YnJdY-unsplash.jpg);
     width: 425px;
     background-size: cover;
     text-shadow: 1px 1px darkgreen ;
 }
 
-.marrow{
+.marrow {
+    margin: 10px 0px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 150px;
 }
 
-.pumpkin{
+.pumpkin {
     background-image: url(Images/kerstin-wrba-zeInZepl_Hw-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px peru ;
+    text-shadow: 1px 1px peru;
 }
 
-.cucumber{
+.cucumber {
     background-image: url(Images/harshal-s-hirve-2GiRcLP_jkI-unsplash.jpg);
     width: 425px;
     background-size: cover;
     text-shadow: 1px 1px green ;
 }
 
-.zucchini{
+.zucchini {
     background-image: url(Images/herbert-goetsch-RP3UpniGTJo-unsplash.jpg);
     width: 425px;
     background-size: cover;
     text-shadow: 1px 1px yellowgreen ;
 }
 
-.edible{
+.edible {
+    margin: 10px 0px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 150px;
 }
 
-.celery{
+.celery {
     background-image: url(Images/daniela-paola-alchapar-u0QBoxz-LF4-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px darkgreen ;
+    text-shadow: 1px 1px darkgreen;
 }
 
-.asparagus{
+.asparagus {
     background-image: url(Images/asparagus.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px black ;
+    text-shadow: 1px 1px black;
 }
 
-.allium{
+.allium {
+    margin: 10px 0px 0px;
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 150px;
 }
 
-.onion{
+.onion {
     background-image: url(Images/abhishek-hajare-D9h2-RxM1rE-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px black ;
+    text-shadow: 1px 1px black;
 }
 
-.garlic{
+.garlic {
     background-image: url(Images/gaelle-marcel-qOwyDpkhaCI-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px black ;
+    text-shadow: 1px 1px black;
 }
 
-.shallot{
+.shallot {
     background-image: url(Images/shallot.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px black ;
+    text-shadow: 1px 1px black;
 }
-
-
 
 footer {
     grid-area: 6 / 1 / 7 / 7;

@@ -92,22 +92,19 @@ footer {
     border: 5px solid rgb(177,148,131); 
     display: flex;
     justify-content: center;
+    text-transform: none;
 }
  
-h3{
+/*h3 {
     font-size: 24px;
-    color: #000;
-    font-family: Lato, sans-serif;
     font-weight: 700;
     line-height: 1.2;
     margin: 0 0 20px;
     text-transform: uppercase;
-}
-h5{
-    font-size: 20px;
-    color: #000;
+}*/
+
+h5 {
     text-transform: capitalize;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /*.p{
@@ -120,15 +117,15 @@ h5{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }*/
-h2{
+
+h2 {
     font-size:24px;
-    color: #000;
-    font-family: Lato, sans-serif;
     font-weight: 700;
     line-height: 1.2;
     margin: 0 0 20px;
     text-transform: uppercase;
 }
-.l1{
+
+.l1 {
     color: #25995c;
 }
