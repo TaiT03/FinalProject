@@ -152,7 +152,7 @@ p {
     background-image: url(Images/vino-li-UFrsHcCi21A-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px limegreen;
+    text-shadow: 1px 1px darkgreen;
 }
 
 .oranges {
@@ -181,7 +181,7 @@ p {
     background-image: url(Images/Cantaloupe.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow:  1px 1px;
+    text-shadow:  1px 1px black;
 }
 
 .stonefruit1 {
@@ -196,7 +196,7 @@ p {
     background-image: url(Images/lucy-claire-kVZOK4CCeLY-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px peachpuff;
+    text-shadow: 1px 1px black;
 }
 
 .nectarines {
@@ -293,7 +293,7 @@ p {
     background-image: url(Images/dan-bucko-HkshRttZKCM-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px darkgreen ;
+    text-shadow: 1px 1px black ;
 }
 
 .border {
@@ -314,21 +314,21 @@ p {
     background-image: url(Images/tite-zobaran-o1cMRfaYD7I-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px limegreen;
+    text-shadow: 1px 1px black;
 }
 
 .spinach {
     background-image: url(Images/nathan-nugent-6AAptb2kBak-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px green;
+    text-shadow: 1px 1px black;
 }
 
 .silverbeet {
     background-image: url(Images/Silverbeeet.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px forestgreen ;
+    text-shadow: 1px 1px black ;
 }
 
 .cruciferous {
@@ -343,7 +343,7 @@ p {
     background-image: url(Images/natasha-skov-ujh4hU9S-KA-unsplash.jpg);
     width: 425px;
     background-size: cover;
-    text-shadow: 1px 1px lightgreen;
+    text-shadow: 1px 1px black;
 }
 
 .cauliflower {
