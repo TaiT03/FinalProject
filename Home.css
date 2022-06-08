@@ -34,8 +34,8 @@ li, a {
 .navlogo{
     width: 25px;
     height: 25px;
-    left: 265px;
-    position: absolute;
+/*  left: 265px;
+    position: absolute;*/
 
 }
 
@@ -57,7 +57,7 @@ li, a {
 
 .suggestions{
     position: absolute;
-    top: 350px;
+    top: 400px;
     right: 50px;
     width: 800px;
     font-size: larger;
@@ -135,3 +135,114 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+/*grid layout in process
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: .25fr repeat(4, 1fr) .5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.header { 
+    grid-area: 1 / 1 / 2 / 7;
+    background-color: skyblue;
+    display: flex;
+    color: white;
+    padding: 10px;
+    flex-flow: row;
+    }
+
+.brand { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.nav { 
+    grid-area: 1 / 6 / 2 / 7;
+    display: flex;
+    color: white;
+   align-self: flex-start;
+
+    font-size: larger; 
+}
+
+li, a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    
+}
+
+.dropdown li:hover {
+    text-shadow: 0px 0px 15px green;
+}
+
+.navlogo {
+    width: 25px;
+    height: 25px;
+
+}
+
+.blue { 
+    grid-area: 2 / 1 / 5 / 7; 
+    background-color: skyblue;
+}
+    
+.logo { 
+    grid-area: 2 / 1 / 4 / 4; 
+}
+
+img {
+    max-width: 300px;
+}
+
+#img {
+
+    width: 500px;
+
+}
+
+.info { 
+    grid-area: 2 / 4 / 4 / 7; }
+
+.preview { grid-area: 4 / 1 / 5 / 7; }
+
+.green { 
+    grid-area: 5 / 1 / 6 / 7; 
+    border: solid 5px #25995C;
+    background-color: #25995C;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.garden { 
+    grid-area: 5 / 1 / 6 / 4; 
+}
+
+#garden{
+    width: 200px;
+    height: 300px;
+}
+
+.grow { 
+    grid-area: 5 / 4 / 6 / 7; 
+}
+
+.footer { 
+    grid-area: 6 / 1 / 7 / 7; 
+    background-color: rgb(177,148,131);
+    border: 5px solid rgb(177,148,131); 
+    justify-content: center;
+    align-items: center;
+}*/
